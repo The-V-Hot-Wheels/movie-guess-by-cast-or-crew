@@ -19,6 +19,8 @@
 		610D67392C0913FA0011EF43 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D67382C0913FA0011EF43 /* Movie.swift */; };
 		610D673B2C0914B20011EF43 /* MovieScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D673A2C0914B20011EF43 /* MovieScene.swift */; };
 		610D673D2C0915650011EF43 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D673C2C0915650011EF43 /* Genre.swift */; };
+		610D673F2C09184D0011EF43 /* MovieLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D673E2C09184D0011EF43 /* MovieLists.swift */; };
+		610D67412C091F220011EF43 /* MovieSceneLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610D67402C091F220011EF43 /* MovieSceneLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		610D67382C0913FA0011EF43 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		610D673A2C0914B20011EF43 /* MovieScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScene.swift; sourceTree = "<group>"; };
 		610D673C2C0915650011EF43 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		610D673E2C09184D0011EF43 /* MovieLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLists.swift; sourceTree = "<group>"; };
+		610D67402C091F220011EF43 /* MovieSceneLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSceneLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +151,11 @@
 		610D67372C0913E00011EF43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				610D67402C091F220011EF43 /* MovieSceneLists.swift */,
 				610D67382C0913FA0011EF43 /* Movie.swift */,
 				610D673A2C0914B20011EF43 /* MovieScene.swift */,
 				610D673C2C0915650011EF43 /* Genre.swift */,
+				610D673E2C09184D0011EF43 /* MovieLists.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,8 +294,10 @@
 			files = (
 				610D670A2C09115F0011EF43 /* ContentView.swift in Sources */,
 				610D673B2C0914B20011EF43 /* MovieScene.swift in Sources */,
+				610D67412C091F220011EF43 /* MovieSceneLists.swift in Sources */,
 				610D67082C09115F0011EF43 /* MovieGuessByCastOrCrewApp.swift in Sources */,
 				610D67392C0913FA0011EF43 /* Movie.swift in Sources */,
+				610D673F2C09184D0011EF43 /* MovieLists.swift in Sources */,
 				610D673D2C0915650011EF43 /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
